@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "name": "Nall",
+      "department": "Software",
+      "salary": "4500",
+      "id": 3
+    },
+    {
+      "name": "Bill Gates",
+      "department": "Environment",
+      "salary": "15000,",
+      "id": 4
+    },
+    {
+      "name": "Elon Musk",
+      "department": "Software",
+      "salary": "15065",
+      "id": 5
+    },
+    {
+      "name": "Jeff Bezos",
+      "department": "Manifacturing",
+      "salary": "15000",
+      "id": 6
+    },
+    {
+      "name": "Ahmet Ali",
+      "department": "Manifacturing",
+      "salary": "15000",
+      "id": 7
+    }
+  ]
+}
