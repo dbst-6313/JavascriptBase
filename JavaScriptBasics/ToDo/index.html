@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>  
+    
+<div class="nav-c">
+<h1>Task Management</h1>
+<p>You can stick your plans here and check out anytime you want</p>
+<img src="6.ackturuncuinceborder (1).png" alt="">
+</div>
+<div class="header-task">
+  <button class="btn btn-danger" id="clear-button" type="button"  style="margin-left: 20px;">Delete All</button>
+  <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add a new task</button>
+
+<div  class="offcanvas offcanvas-start form-todo" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title color-primary" style="color:blueviolet" id="offcanvasWithBothOptionsLabel">Add Task</h5>
+    
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <hr>
+  <div class="offcanvas-body">
+    <p style="position:absolute; right: 60px;">Your Task Header</p>
+   <input type="text" class="input-todo-header input-todo" style="margin-bottom: 70px;">
+   <p style="position:absolute;">Your Task Description</p>
+   <input type="text" class="input-todo-description input-todo">
+   <div class="d-grid gap-2 col-6 mx-auto">
+  
+    <button class="btn btn-dark" style="margin-top: 40px;margin-right: 40px;" type="button" id="add-task">Add</button>
+  </div>
+
+  <div class="alertContainer">
+
+  </div>
+ 
+  </div>
+</div>
+    <h2>Your Tasks</h2>
+    <hr>
+    
+</div>
+
+<ol class="list-group list-group-numbered">
+  <!-- <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Subheading</div>
+      Content for list item
+      <button class="btn btn-danger delete-button" id="clear-button"  >Delete</button>
+    </div>
+   
+  </li> -->
+
+</ol>
+    
+    <script src="script.js">
+      
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+</body>
+</html>

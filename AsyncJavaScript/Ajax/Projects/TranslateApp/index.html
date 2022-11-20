@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card text-center bg-dark">
+        <div class="card-header text-light">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-light">Translate</h5>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Word To Translate(TR)</span>
+            <input type="text" class="form-control" id="translateText" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <hr> 
+          <select id="select" class="form-select" aria-label="Default select example">
+            <option selected>Choose Your Language</option>
+            <option value="es">Espanol</option>
+            <option value="en">English</option>
+          
+          </select>
+          <div class="d-grid gap-2 col-6 mx-auto" style="margin-top:50px">
+            <button class="btn btn-danger" id="translate" type="button">Translate</button>
+           
+          </div>
+        </div>
+        <div class="card-footer text-light" id="a">
+         Your Word's Translate Is:
+        </div>
+      </div>
+
+    <script src="app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

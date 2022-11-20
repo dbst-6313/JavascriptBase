@@ -1,0 +1,18 @@
+
+[
+    {
+  "name":"John Doe",
+  "department":"Human Resources",
+  "Salary":"10000"  
+},
+{
+    "name":"Hamish Burrel",
+    "department":"IT",
+    "Salary":"20000"  
+},
+{
+    "name":"Mary Doe",
+    "departmen":"Human Resources",
+    "Salary":"10000"  
+}
+]
